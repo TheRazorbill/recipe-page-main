@@ -1,5 +1,4 @@
 :root {
-  /* Cores */
   --color-white: hsl(0, 0%, 100%);
   --color-stone-100: hsl(30, 54%, 90%);
   --color-stone-150: hsl(30, 18%, 87%);
@@ -9,7 +8,7 @@
   --color-rose-800: hsl(332, 51%, 32%);
   --color-rose-50: hsl(330, 100%, 98%);
 
-  --font-body-copy-size: 16px;
+  --font-body-copy-size: 1rem;
   --font-family-serif: 'Young Serif', serif;
   --font-family-sans: 'Outfit', sans-serif;
   
@@ -18,11 +17,95 @@
   --font-weight-bold: 700;
 }
 
-
 body {
   color: var(--color-stone-900);
   font-family: var(--font-family-sans);
   font-weight: var(--font-weight-regular);
   font-size: var(--font-body-copy-size);
   background-color: var(--color-stone-100);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-serif);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+  padding: 0;
+  line-height: 1.1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--color-stone-150);
+  margin: 2rem 0;
+}
+
+.container {
+  background-color: var(--color-white);
+  width: 100%;
+  max-width: 650px;
+  margin: auto 1rem; 
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.preparation {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-rose-50);
+  padding: 1.5rem;
+  border-radius: 20px;
+  gap: 1rem;
+}
+
+.preparation h3 {
+  color: var(--color-rose-800);
+}
+
+.preparation li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.ingredients h2,
+.instructions h2,
+.nutrition h2 {
+  color: var(--color-brown-800);
+  margin-bottom: 1rem;
+}
+
+.nutrition td {
+  color: var(--color-brown-800);
+  padding: 0.5rem 0;
+}
+
+footer, .attribution {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--color-stone-600);
+  width: 100%;
 }
