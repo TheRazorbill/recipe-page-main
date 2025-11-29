@@ -17,14 +17,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-*(Note: Don't forget to add your screenshot to the project folder and update the path above if necessary)*
+<img width="611" height="1074" alt="image" src="https://github.com/user-attachments/assets/bb68e1e4-9679-4070-8b30-bda25b104166" />
 
 ### Links
 
-- Solution URL: [Add your solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add your live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add your solution URL here](https://github.com/TheRazorbill/recipe-page-main)
+- Live Site URL: [Add your live site URL here](https://therazorbill.github.io/recipe-page-main/)
 
 ## My process
 
